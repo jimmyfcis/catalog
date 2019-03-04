@@ -1,0 +1,44 @@
+body { 
+    font-family: Tahoma;
+    background-color:black;
+    background-image: url('pietro-de-grandi-445470-unsplash.jpg') ;
+    background-position: center;
+    background-size: cover
+}
+
+h1 {font-family: Tahoma;}
+h2, h3, h4 { color: blanchedalmond;  font-weight: bold;}
+h1 { font-family: 'Georgia', serif; margin: 0; }
+h2 { font-size: 1.2em; }
+
+
+p { color:black;}
+
+a {text-decoration: none; color:gray;}
+
+
+.price {
+    text-align: right;
+    width:50%;
+    float: right;
+}
+
+.name {
+    width:50%;
+    display: inline-block;
+    float: left;
+}
+
+
+.block {
+    margin-top: 5px;
+    margin-left: 5%;
+    position:absolute;
+    border: 1px solid;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 20px;
+    padding-top: 5px;
+    left:50%;
+    text-align: center;
+}
